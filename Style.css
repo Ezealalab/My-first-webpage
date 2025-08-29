@@ -1,0 +1,99 @@
+/* Style for YouTube button */
+.frosty{
+  background-color: #FF0000; /* YouTube Red */
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.frosty:hover {
+  background-color: #cc0000;
+}
+
+/* Style for Facebook button */
+.stay {
+  background-color: #1877F3; /* Facebook Blue */
+  color: #fff;
+  border: none;
+  padding: 10px 24px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.stay:hover {
+  background-color: #145db2;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Contact Form Styles */
+form {
+  background: #f9f9f9;
+  padding: 18px 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 350px;
+  margin: 18px 0;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0 14px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 15px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+form textarea {
+  min-height: 70px;
+}
+
+form button[type="submit"] {
+  background: #1877F3;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+form button[type="submit"]:hover {
+  background: #145db2;
+}
+
+body {
+  background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+/* Logo Styles */
+.logo {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  font-size: 2.7rem;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(90deg, #00c853 60%, #2196f3 100%);
+  padding: 12px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  display: inline-block;
+  margin: 32px 0 18px 0;
+  letter-spacing: 2px;
+  text-shadow: 1px 2px 8px rgba(0,0,0,0.18);
+}
